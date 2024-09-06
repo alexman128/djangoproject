@@ -41,19 +41,3 @@ class BackendUser(models.Model):
 
     def __str__(self):
         return f"{self.name}"
-
-
-""" Django model class to store the info for the messages sent (simulating the actual sending)."""
-
-#
-# class MessageSent(models.Model):
-#     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-#     message_content = models.TextField()
-#     # All the channels on which the message was sent
-#     channels = models.ManyToManyField(Channel)
-#     sent_at = models.DateTimeField(auto_now_add=True)
-#     # User id which can be used later to retrieve the rest of the info from the user Table
-#     user = models.ForeignKey(BackendUser, on_delete=models.CASCADE)
-#
-#     def __str__(self):
-#         return f"{self.sent_at} - {self.category} - {self.user}"
