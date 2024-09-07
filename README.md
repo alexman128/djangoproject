@@ -15,6 +15,12 @@ It is of type POST, and the payload must have the below data
 One must provide one key of **message_category**, which can have one of the categories in the DB (sports, finance, films)
 and **message_contents** which are the contents of the message to be sent to the subscribed users of that category.
 
+Note: The actual message sending is not happening, it is being simulated by sending messages to the log, these log entries 
+have enough info to identify the message such as the user, user id, message category, and message channel along with the time it was sent.
+
+![imagen](https://github.com/user-attachments/assets/8ce0285a-ff74-4a76-b5e4-c2810d2c3067)
+
+
 ## Tests
 
 It also has some tests which populate data inside the test itself and makes some comparison for the happy path and also one error scenario.
@@ -40,6 +46,9 @@ the password: **adiviname001**
 or it already has some data populated which can be reuploaded again by using the command:
 
 python manage.py loaddata input_data_fixture.json
+
+
+
 
 
 
