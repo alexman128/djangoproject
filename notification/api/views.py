@@ -28,7 +28,7 @@ def generate_log_message(user_name, user_id, message_category, channel_type, mes
                    f"\n\tThe message contents are: '{message_content}'.")
     return log_message
 
-
+"""This class and subclasses implement the strategy pattern"""
 class AbstractChannel(ABC):
     @abstractmethod
     def send_message(self, message_content: str, user: BackendUser, message_category: str) -> None:
