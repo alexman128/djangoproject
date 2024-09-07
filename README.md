@@ -45,7 +45,7 @@ the password: **adiviname001**
 
 or it already has some data populated which can be reuploaded again by using the command:
 
-python manage.py loaddata input_data_fixture.json
+**python manage.py loaddata input_data_fixture.json**
 
 
 # Design pattern 
