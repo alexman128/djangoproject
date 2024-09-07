@@ -63,7 +63,7 @@ and the context is the class:
 
 - MessageSender
 
-
+Also Django already provides their own implementation of the **MVC** pattern which is the **Model** **View** **Template** pattern
 
 
 
