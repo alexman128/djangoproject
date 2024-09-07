@@ -68,6 +68,18 @@ http://127.0.0.1:8000/admin
 the user is: **apiuser** \
 the password: **adiviname001**
 
+![imagen](https://github.com/user-attachments/assets/601215b4-bb86-4d14-ad30-c3c268a92102)
+
+![imagen](https://github.com/user-attachments/assets/354a37c4-3236-4347-854b-e72e732f1c40)
+
+![imagen](https://github.com/user-attachments/assets/f623a8dd-8804-407b-a880-5e301afdfe1d)
+
+![imagen](https://github.com/user-attachments/assets/688a940d-40cb-40a4-9d21-a6aad83fac35)
+
+
+
+
+
 or it already has some data populated which can be reuploaded again by using the command:
 
 **python manage.py loaddata input_data_fixture.json**
