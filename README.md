@@ -139,7 +139,7 @@ Then you can see the data of the application:
 
 A minimal protection vs DDOs attack was added using the configuration of DJANGO 
 
-In the settings.py file I added the below configuration to limit the number of request per minute that it can accept.
+In the settings.py file I added the below configuration to limit the number of requests per minute that it can accept.
 
 ![imagen](https://github.com/user-attachments/assets/8b2b5593-abf4-4bdb-976d-e316e22a41d3)
 
