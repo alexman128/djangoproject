@@ -107,6 +107,31 @@ Also Django already provides their own implementation of the **MVC** pattern whi
 
 The Database used is MySQL which was required in order to implement the foreign keys and many to many relations in DJANGO ORM
 
+MYSQL Users and passwords
+
+- User: root Password: welcome
+- User: alexman Password: welcome
+
+
+Command to enter the db 
+
+mysql -u alexman -p 
+(It will ask for a password) 
+
+then you can see the databases 
+
+![imagen](https://github.com/user-attachments/assets/7543f5af-bb6b-489e-ac51-559fc06f2ecc)
+
+Then you can see the tables 
+
+![imagen](https://github.com/user-attachments/assets/1b266498-a97f-48bb-a024-55f6e3b16577)
+
+Then you can see the data of the application: 
+
+![imagen](https://github.com/user-attachments/assets/8312b822-9015-48ad-9437-63e71ea6b81c)
+
+
+
 ![imagen](https://github.com/user-attachments/assets/ff2ef75d-355a-46b7-97e0-39d2a0f0a013)
 
 
