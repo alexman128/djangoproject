@@ -54,14 +54,14 @@ The design pattern used is the **Strategy pattern** which as used to select the 
 
 and the following classes implement it: 
 
--AbstractChannel
--SMSChannel
--PushChannel
--EmailChannel
+- AbstractChannel
+- SMSChannel
+- PushChannel
+- EmailChannel
 
 and the context is the class: 
 
--MessageSender
+- MessageSender
 
 
 
