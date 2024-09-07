@@ -6,7 +6,7 @@ Also a new env should be created
 
 and the environment must be activated  
 
-**.\.venv\Scripts\activate**
+**.\\.venv\Scripts\activate**
 
 then the requirements must be installed with pip  
 
