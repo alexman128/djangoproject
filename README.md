@@ -1,17 +1,17 @@
 # How to run 
 This project uses MySQL as the DB engine, so it must be installed first.
-Also a new env should be created \
+Also a new env should be created \ 
 
 **python -m venv .venv**
 
-and the environment must be activated \
+and the environment must be activated \ 
 **.\.venv\Scripts\activate**
 
-then the requirements must be installed with pip \
+then the requirements must be installed with pip \ 
 
 **pip install -r requirements.txt**
 
-Go the the root folder of the project and run the below command \
+Go the the root folder of the project and run the below command \ 
 
 **python manage.py runserver**
 
