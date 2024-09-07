@@ -16,6 +16,11 @@ Go the the root folder of the project and run the below command
 
 **python manage.py runserver**
 
+After running the program and if no errors ocurred, the main url and the port number are going to be shown in the terminal, 
+this along with  the end point should be used to access the end point
+
+![imagen](https://github.com/user-attachments/assets/774ebeec-1988-4684-a04c-7269b02fd918)
+
 And then use a program like postman to send the request to the endpoint.
 
 # Endpoints 
