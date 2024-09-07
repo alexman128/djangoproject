@@ -25,8 +25,8 @@ TO upload more data the django admin page can be used:
 
 http://127.0.0.1:8000/admin
 
-the user is: apiuser
-the password: adiviname001
+the user is: **apiuser** \
+the password: **adiviname001**
 
 or it already has some data populated which can be reuploaded again by using the command:
 
