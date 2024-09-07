@@ -48,6 +48,24 @@ or it already has some data populated which can be reuploaded again by using the
 python manage.py loaddata input_data_fixture.json
 
 
+# Design pattern 
+
+The design pattern used is the **Strategy pattern** which as used to select the channel type to write to
+
+and the following classes implement it: 
+
+-AbstractChannel
+-SMSChannel
+-PushChannel
+-EmailChannel
+
+and the context is the class: 
+
+-MessageSender
+
+
+
+
 
 
 
