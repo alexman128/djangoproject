@@ -103,6 +103,13 @@ and the context is the class:
 Also Django already provides their own implementation of the **MVC** pattern which is the **Model** **View** **Template** pattern
 
 
+# Database and Models
+
+The Database used is MySQL which was required in order to implement the foreign keys and many to many relations in DJANGO ORM
+
+![imagen](https://github.com/user-attachments/assets/ff2ef75d-355a-46b7-97e0-39d2a0f0a013)
+
+
 
 
 
