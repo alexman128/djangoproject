@@ -12,8 +12,8 @@ It is of type POST, and the payload must have the below data
 
 ![imagen](https://github.com/user-attachments/assets/24704770-2cc6-46a5-b5cc-56141056cff1)
 
-One key of message_category, which can have one of the categories in the DB (sports, finance, films)
-and the contents of the message to be sent to the subscribed users of that category.
+One must provide one key of **message_category**, which can have one of the categories in the DB (sports, finance, films)
+and **message_contents** which are the contents of the message to be sent to the subscribed users of that category.
 
 ## Tests
 
