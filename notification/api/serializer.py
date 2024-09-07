@@ -13,7 +13,7 @@ class ChannelSerializer(serializers.ModelSerializer):
         model = Channel
         fields = ['id', 'name', 'description']
 
-class BackendUser(serializers.ModelSerializer):
+class BackendUserSerializer(serializers.ModelSerializer):
     subscribed_categories = CategorySerializer(read_only=True, many=True)
     channels = ChannelSerializer(read_only=True, many=True)
     class Meta:

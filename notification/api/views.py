@@ -99,8 +99,8 @@ def send_message(request):
                 for channel in subscribed_channels:
                     sender = create_sender_by_channel_type(channel.name.lower())
                     sender.send_message(message_content, user, message_category)
-                    message_channel_counter[channel.name] = message_channel_counter.get(channel.name, 0) + 1
-            json_response = {"Number of times each channel type was used to send the message to the users": message_channel_counter}
+                    message_channel_counter[channel.name.lower()] = message_channel_counter.get(channel.name.lower(), 0) + 1
+            json_response = {"Number of times each channel type was used to send the message to the users": sorted(message_channel_counter.items())}
             return Response(json_response, status.HTTP_200_OK)
         except DatabaseError as e:
             logger.error(f"There was an error while retrieving data from the database: {str(e)}")
